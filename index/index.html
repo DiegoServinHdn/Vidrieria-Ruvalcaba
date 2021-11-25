@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registro de Productos</title>
+	<!--Icon and stylesheet-->
+	<link href="style.css" rel="stylesheet">
+	<link rel="shortcut icon" href="images/icono.ico"/>
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+</head>
+	<body>
+		<section class="contact-box ">
+			<div class="container align-self-center">
+			<div class="row no-gutters">
+	           <div class="col-xl-5 col-lg-12 register-bg">        
+	           </div>
+	           <div class="col-xl-7 col-lg-12">
+	                <div class="container align-self-center p-6">
+	                    <h1 class="font-weight-bold mb-3">Registro de Productos</h1>
+				<form action="#" method="POST" enctype="multipart/form-data">
+				<div class="formulario">
+					<label class="font-weight-bold">Nombre de Producto<span class="text-danger"> * </span></label>
+			    	<input type="text" name= "nombreProducto" class = "input"  placeholder="Nombre del Producto">
+				</div>
+				<div class="formulario">
+					<label class="font-weight-bold">Precio de Producto<span class="text-danger"> * </span></label>
+					<input type="text" name= "precioProducto" class = "input " placeholder="Precio del Producto">
+				</div>
+				<div>
+					<label class="font-weight-bold">Descripción del producto<span class="text-danger"> * </span></label>
+					<textarea class = "input width-200" name="descripcionProducto" rows="5" cols="50" placeholder="Descripción del producto . . ."></textarea>
+				</div>
+				<div>
+					<label class="font-weight-bold">Categoria de Producto<span class="text-danger"> * </span></label>
+					<select name="categoriaDeProducto">
+					   <option value="1">Cristales</option> 
+					   <option value="2">Espejos</option> 
+					   <option value="3">Barandales</option>
+					   <option value="10">Domos</option> 
+					   <option value="11">Cancelería Fina</option> 
+					   <option value="12">Peliculas</option>
+					   <option value="12">Herrajes</option>  
+					</select>
+				</div>
+				
+				<div>
+					<label class="font-weight-bold">Proveedor<span class="text-danger"> * </span></label>
+					<select name="proveedores">
+					   <option value="1">Cristales Azano</option> 
+					   <option value="2">Espejos Reflejantes</option> 
+					   <option value="3">Herreria de Occidente</option>  
+					</select>
+				</div>
+				
+				<button class="boton font-weight-bold">Guardar</button>
+			</form>
+			<small class="d-inline-block text-muted mt-5">VIDRIERIA RUVALCABA</small>
+			</div>
+		</section>
+		
+	</body>
+</html>

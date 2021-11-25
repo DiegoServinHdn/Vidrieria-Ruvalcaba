@@ -1,0 +1,45 @@
+.boton {
+    border: none;
+    background: #959595;
+    font-weight: 400;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    min-width: 10rem;
+    padding: 10px;
+    margin: 20px;
+    color: #fff;
+}
+.input{
+    border: 1px;
+    background: #F1EFEF;
+    border-radius: .5rem;
+    resize: none vertical;
+    margin: 8px;
+    margin-left: 15px;
+    padding: 8px;
+
+}
+textarea {
+  resize: none vertical;
+  margin: 20px;
+}
+@media (max-width: 575.98px) {
+    .p-6 {
+        padding: 2rem;
+    }
+
+    .contact-box {
+        padding: 0;
+    }
+
+    .width-100 {
+        width: 100%;
+    }
+}
+.register-bg {
+    background-image: url('images/escuela.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
